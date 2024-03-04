@@ -14,7 +14,7 @@
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 100px;
 }
 
 .main {
@@ -30,6 +30,11 @@ h1 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   margin: 2rem;
+  transition: 0.12s;
+}
+
+.cardy:hover {
+  transform: scale(1.05);
 }
 
 .card-image {
@@ -50,13 +55,14 @@ h1 {
   color: #fff;
   border: none;
   padding: 12px 24px;
+  margin-bottom: 2rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 .card-button:hover {
-  background-color: #0056b3;
+  background-color: #d47c00;
 }
 
 .card-list {

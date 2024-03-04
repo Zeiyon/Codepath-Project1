@@ -1,81 +1,72 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import Card from './Card';
 import first from './assets/1.jpg'
 import second from './assets/2.jpg'
 import third from './assets/3.jpg'
 import fourth from './assets/4.jpg'
+import fifth from './assets/5.jpg'
+import sixth from './assets/6.jpg'
+import seventh from './assets/7.jpg'
+import eighth from './assets/8.jpg'
+import ninth from './assets/9.jpg'
+import tenth from './assets/10.jpg'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const dummyArray = [
+  const movies = [
     {
       imageUrl: first,
-      description: "Description 1",
-      buttonText: "Click Here"
+      description: "Avengers: Infinity War"
     },
     {
       imageUrl: second,
-      description: "Description 2",
-      buttonText: "Click Here"
+      description: "Moonligh"
     },
     {
       imageUrl: third,
-      description: "Description 3",
-      buttonText: "Click Here"
+      description: "Jurrasic Park"
     },
     {
       imageUrl: fourth,
-      description: "Description 4",
-      buttonText: "Click Here"
+      description: "Demon Slayer"
     },
     {
-      imageUrl: first,
-      description: "Description 5",
-      buttonText: "Click Here"
+      imageUrl: fifth,
+      description: "Back to the Future"
     },
     {
-      imageUrl: second,
-      description: "Description 6",
-      buttonText: "Click Here"
+      imageUrl: sixth,
+      description: "Scream"
     },
     {
-      imageUrl: third,
-      description: "Description 7",
-      buttonText: "Click Here"
+      imageUrl: seventh,
+      description: "Black Widow"
     },
     {
-      imageUrl: fourth,
-      description: "Description 8",
-      buttonText: "Click Here"
+      imageUrl: eighth,
+      description: "Black Panther"
     },
     {
-      imageUrl: first,
-      description: "Description 9",
-      buttonText: "Click Here"
+      imageUrl: ninth,
+      description: "Bohemian Rhapsody"
     },
     {
-      imageUrl: second,
-      description: "Description 10",
-      buttonText: "Click Here"
+      imageUrl: tenth,
+      description: "Star Wars"
     }
   ];
 
   return (
     <div className="main">
       
-    <h1>Your Favorite Movies</h1>
+    <h1>Your Favorite Movies List</h1>
 
     <div className="card-list">
-        {dummyArray.map((item, index) => (
+        {movies.map((item, index) => (
           <Card
             key={index}
             imageUrl={item.imageUrl}
             description={item.description}
-            buttonText={item.buttonText}
           />
         ))}
       </div>
