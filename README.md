@@ -10,13 +10,13 @@ Time spent: 1 hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [x] **There is a unique theme for events or resources relevant to a specific community**
+- [x] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
 - [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://s2.ezgif.com/tmp/ezgif-2-8a61f997e6.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[https://i.imgur.com/lZljqJC.gif](https://i.imgur.com/IT1d2zm.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -37,7 +37,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Pretty simple website. Only difficult part was working with the CSS. For some reason some properties wouldn't work.
 
 ## License
 
